@@ -1,0 +1,65 @@
+body {
+  background: url('images/entrance.jpg');
+  font-family: 'Rajdhani', sans-serif;
+}
+
+header {
+  background-color: #CF4D6F;
+  padding: 1rem;
+  position: fixed;
+  height: 50px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin-top: 0px;
+}
+
+header h1 {
+  margin: auto;
+}
+
+footer {
+  background-color: papayawhip;
+  /* padding: 1rem; */
+  margin-top: 1rem;
+  position: fixed;
+  height: 30px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
+
+footer p {
+  margin: auto;
+}
+main {
+  margin: 90px 0px 50px;
+}
+
+.content {
+  background-color: lightgray;
+}
+img {
+  width: 30rem;
+  margin: auto;
+  display: block;
+}
+
+a:link,
+a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: red;
+}
+
+a:active {
+  background-color: #A00;
+}
